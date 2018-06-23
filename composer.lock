@@ -1,0 +1,114 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "63e2095e178acf203a08e74915c9b9ba",
+    "content-hash": "844217c32e1a789fff269981ff0f089e",
+    "packages": [
+        {
+            "name": "a15lam/workspace",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/a15lam/workspace.git",
+                "reference": "a17508b47b2db11a6e203a3cbd43b886a85e25aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a15lam/workspace/zipball/a17508b47b2db11a6e203a3cbd43b886a85e25aa",
+                "reference": "a17508b47b2db11a6e203a3cbd43b886a85e25aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "vlucas/phpdotenv": "^2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "a15lam\\Workspace\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "areef.islam@gmail.com"
+                }
+            ],
+            "description": "A library of commonly used classes and utilities.",
+            "homepage": "https://github.com/a15lam/workspace/",
+            "keywords": [
+                "common",
+                "framework",
+                "utility"
+            ],
+            "time": "2018-06-23 15:48:47"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01 10:05:43"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
